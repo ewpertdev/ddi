@@ -21,7 +21,7 @@ public class Ej4Test {
         for (fil = 0; fil < matriz.length; fil++) {
             for (col = 0; col < matriz[fil].length; col++) {
                 int value = matriz[fil][col] = (int) (Math.random() * 10);
-                System.out.println("" + fil + ", " + col + ", " + value);
+                System.out.println(" " + fil + ", " + col + ", " + value);
             }
         }
 

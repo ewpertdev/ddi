@@ -4,7 +4,15 @@ import java.util.Scanner;
 
 public abstract class Empleados {
      private String id;
-     private String nombre;
+
+    public Empleados(String id, String nombre, String apellidos, double salario) {
+        this.id = id;
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.salario = salario;
+    }
+
+    private String nombre;
      private String apellidos;
      private double salario;
 
